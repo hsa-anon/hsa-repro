@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "4096": {
+      "hits": 3,
+      "total": 3,
+      "ratio": 1.0
+    }
+  },
+  "details": [
+    {
+      "length": 4096,
+      "seed": 41,
+      "depth": 0.95,
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "hit": true,
+      "answer": "<think>\nThe user is asking me to identify the \"special magic number for Zhaoyun\" that is embedded within the repetitive text. Let me look through the text carefully.\n\nI can see it embedded in the midd",
+      "prefill_plus_decode_s": 19.5
+    },
+    {
+      "length": 4096,
+      "seed": 42,
+      "depth": 0.95,
+      "key": "Wolong",
+      "value": "770487-335075",
+      "hit": true,
+      "answer": "<think>\nThe user is asking me to identify the \"special magic number for Wolong\" that is embedded in the text. Let me look through the text carefully.\n\nThe text is mostly repetitive: \"The sun rises in ",
+      "prefill_plus_decode_s": 17.0
+    },
+    {
+      "length": 4096,
+      "seed": 43,
+      "depth": 0.95,
+      "key": "Erlang",
+      "value": "140424-422758",
+      "hit": true,
+      "answer": "<think>\nThe user is asking me to identify the \"special magic numbers for Erlang\" mentioned in the text. Let me look through the text carefully.\n\nThe text is mostly repetitive: \"The sun rises in the ea",
+      "prefill_plus_decode_s": 40.2
+    }
+  ],
+  "ckpt": "/mnt/sfs_turbo/hsa_probe/train_m2/ckpt/ckpt_8000.pt",
+  "window": 512,
+  "block_size": 2048,
+  "dense": false,
+  "decode_quest": 8,
+  "decode_topk": null
+}

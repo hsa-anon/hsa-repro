@@ -1,0 +1,13 @@
+Calling `python -m mlx_lm.lora...` directly is deprecated. Use `mlx_lm.lora...` or `python -m mlx_lm lora ...` instead.
+Loading pretrained model
+Loading datasets
+Training
+Trainable parameters: 0.054% (14.591M/26895.994M)
+Starting training..., iters: 20
+Calculating loss...:   0%|          | 0/5 [00:00<?, ?it/s]Calculating loss...:  20%|██        | 1/5 [00:07<00:30,  7.59s/it]Calculating loss...:  40%|████      | 2/5 [00:10<00:14,  4.71s/it]Calculating loss...:  60%|██████    | 3/5 [00:12<00:07,  3.72s/it]Calculating loss...:  80%|████████  | 4/5 [00:14<00:03,  3.11s/it]Calculating loss...: 100%|██████████| 5/5 [00:16<00:00,  2.59s/it]Calculating loss...: 100%|██████████| 5/5 [00:16<00:00,  3.33s/it]
+Iter 1: Val loss 4.566, Val took 16.682s
+Iter 10: Train loss 2.589, Learning Rate 1.000e-05, It/sec 0.052, Tokens/sec 28.038, Trained Tokens 5403, Peak mem 74.775 GB
+Calculating loss...:   0%|          | 0/5 [00:00<?, ?it/s]Calculating loss...:  20%|██        | 1/5 [00:01<00:06,  1.55s/it]Calculating loss...:  40%|████      | 2/5 [00:03<00:04,  1.61s/it]Calculating loss...:  60%|██████    | 3/5 [00:04<00:03,  1.68s/it]Calculating loss...:  80%|████████  | 4/5 [00:06<00:01,  1.75s/it]Calculating loss...: 100%|██████████| 5/5 [00:08<00:00,  1.78s/it]Calculating loss...: 100%|██████████| 5/5 [00:08<00:00,  1.73s/it]
+Iter 20: Val loss 1.765, Val took 8.668s
+Iter 20: Train loss 1.844, Learning Rate 1.000e-05, It/sec 0.088, Tokens/sec 47.567, Trained Tokens 10836, Peak mem 74.782 GB
+Saved final weights to adapters/adapters.safetensors.

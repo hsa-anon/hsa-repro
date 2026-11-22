@@ -1,0 +1,30 @@
+{
+  "protocol": "RULER NIAH, greedy, max-tokens 512, 3 repeats, LSA tier-prefill server (k8v4), M5 Max 128GB, port 11555->11556, 2026-11-19",
+  "caveat": "repeats 2-3 of each length are served partly from the server response cache; repeat 0 wall is the honest fresh-prefill sample",
+  "runs": [
+    {
+      "hits": 3,
+      "repeats": 3,
+      "accuracy": 1.0,
+      "mean_decode_tps": 1.729598774003286,
+      "length": 4096,
+      "seed": 42
+    },
+    {
+      "hits": 3,
+      "repeats": 3,
+      "accuracy": 1.0,
+      "mean_decode_tps": 1.7465811960534177,
+      "length": 32768,
+      "seed": 42
+    },
+    {
+      "hits": 3,
+      "repeats": 3,
+      "accuracy": 1.0,
+      "mean_decode_tps": 1.9413583633367144,
+      "length": 131072,
+      "seed": 42
+    }
+  ]
+}

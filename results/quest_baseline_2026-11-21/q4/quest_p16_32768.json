@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "32768": {
+      "hits": 0,
+      "total": 3,
+      "ratio": 0.0
+    }
+  },
+  "details": [
+    {
+      "length": 32768,
+      "seed": 41,
+      "depth": 0.75,
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "hit": false,
+      "answer": "Based on the text provided, the specific number associated with the sun rising in the east and setting in the west is **4**.\n\nThe text states: \"The sun rises in the east and sets in the west. Grass is",
+      "prefill_plus_decode_s": 54.9
+    },
+    {
+      "length": 32768,
+      "seed": 42,
+      "depth": 0.75,
+      "key": "Wolong",
+      "value": "770487-335075",
+      "hit": false,
+      "answer": "<think>\nThe user is asking me to extract a specific piece of information from a large block of repetitive text. Let me find the relevant information.\n\nThe text is mostly repetitions of \"The sun rises ",
+      "prefill_plus_decode_s": 54.3
+    },
+    {
+      "length": 32768,
+      "seed": 43,
+      "depth": 0.75,
+      "key": "Erlang",
+      "value": "140424-422758",
+      "hit": false,
+      "answer": "<think>\nThe user is asking me to find a specific piece of information hidden within a large amount of repetitive text. Let me scan through the text to find the unique piece of information.\n\nLooking th",
+      "prefill_plus_decode_s": 54.3
+    }
+  ],
+  "ckpt": "/mnt/sfs_turbo/hsa_probe/train_m2/ckpt/ckpt_8000.pt",
+  "window": 512,
+  "block_size": 2048,
+  "dense": false,
+  "decode_quest": 16,
+  "decode_topk": null
+}

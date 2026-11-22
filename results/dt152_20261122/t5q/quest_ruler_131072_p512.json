@@ -1,0 +1,53 @@
+{
+  "summary": {
+    "131072": {
+      "hits": 3,
+      "total": 3,
+      "ratio": 1.0
+    }
+  },
+  "details": [
+    {
+      "length": 131072,
+      "seed": 41,
+      "depth": 0.75,
+      "task": "niah",
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "expected": "499529-708968",
+      "hit": true,
+      "answer": "Based on the text provided, the special magic number for Zhaoyun is **499529-708968**.The",
+      "prefill_plus_decode_s": 58.2
+    },
+    {
+      "length": 131072,
+      "seed": 42,
+      "depth": 0.75,
+      "task": "niah",
+      "key": "Wolong",
+      "value": "770487-335075",
+      "expected": "770487-335075",
+      "hit": true,
+      "answer": "<think>\nThe user is asking me to find the special magic number for Wolong mentioned in the provided text. Let me search through the text carefully.\n\nThe text is mostly a repetition of \"The sun rises i",
+      "prefill_plus_decode_s": 87.8
+    },
+    {
+      "length": 131072,
+      "seed": 43,
+      "depth": 0.75,
+      "task": "niah",
+      "key": "Erlang",
+      "value": "140424-422758",
+      "expected": "140424-422758",
+      "hit": true,
+      "answer": "<think>\nThe user is asking me to find the special magic number for Erlang mentioned in the provided text. Let me search through the text carefully.\n\nThe text is mostly a repetition of \"The sun rises i",
+      "prefill_plus_decode_s": 74.7
+    }
+  ],
+  "ckpt": null,
+  "window": 512,
+  "block_size": 2048,
+  "dense": false,
+  "decode_quest": 512,
+  "decode_topk": null
+}

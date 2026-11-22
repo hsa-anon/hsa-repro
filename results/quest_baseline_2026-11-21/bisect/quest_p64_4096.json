@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "4096": {
+      "hits": 3,
+      "total": 3,
+      "ratio": 1.0
+    }
+  },
+  "details": [
+    {
+      "length": 4096,
+      "seed": 41,
+      "depth": 0.75,
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "hit": true,
+      "answer": "Based on the text provided, the special magic number for Zhaoyun is **499529-708968**.\n\nThis specific phrase appears embedded within the repetitive text: \"...One of the special magic numbers for Zhaoy",
+      "prefill_plus_decode_s": 9.4
+    },
+    {
+      "length": 4096,
+      "seed": 42,
+      "depth": 0.75,
+      "key": "Wolong",
+      "value": "770487-335075",
+      "hit": true,
+      "answer": "Based on the text provided, the special magic number for Wolong is **770487-335075**.\n\nIt appears embedded within the repetitive text as follows:\n\"...One of the special magic numbers for Wolong is: **",
+      "prefill_plus_decode_s": 7.8
+    },
+    {
+      "length": 4096,
+      "seed": 43,
+      "depth": 0.75,
+      "key": "Erlang",
+      "value": "140424-422758",
+      "hit": true,
+      "answer": "Based on the text provided, the special magic number for Erlang is **140424-422758**.\n\nIt appears embedded within the repetitive text as follows:\n\"...One of the special magic numbers for Erlang is: **",
+      "prefill_plus_decode_s": 8.0
+    }
+  ],
+  "ckpt": "/mnt/sfs_turbo/hsa_probe/train_m2/ckpt/ckpt_8000.pt",
+  "window": 512,
+  "block_size": 2048,
+  "dense": false,
+  "decode_quest": 64,
+  "decode_topk": null
+}

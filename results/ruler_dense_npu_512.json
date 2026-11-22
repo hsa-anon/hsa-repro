@@ -1,0 +1,80 @@
+{
+  "summary": {
+    "4096": {
+      "hits": 3,
+      "total": 3,
+      "ratio": 1.0
+    },
+    "32768": {
+      "hits": 3,
+      "total": 3,
+      "ratio": 1.0
+    }
+  },
+  "details": [
+    {
+      "length": 4096,
+      "seed": 41,
+      "depth": 0.75,
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "hit": true,
+      "answer": "Based on the text provided, the special magic number for Zhaoyun is **499529-708968**.\n\nThis specific phrase appears embedded within the repetitive text: \"...The sun rises in the east and **One of the",
+      "prefill_plus_decode_s": 8.0
+    },
+    {
+      "length": 4096,
+      "seed": 42,
+      "depth": 0.25,
+      "key": "Wolong",
+      "value": "770487-335075",
+      "hit": true,
+      "answer": "Based on the text provided, the special magic number for Wolong is **770487-335075**.\n\nIt appears embedded within the repetitive text as follows:\n\"...The sun rises in the east and sets in**One of the ",
+      "prefill_plus_decode_s": 8.4
+    },
+    {
+      "length": 4096,
+      "seed": 43,
+      "depth": 0.5,
+      "key": "Erlang",
+      "value": "140424-422758",
+      "hit": true,
+      "answer": "Based on the text provided, the special magic number for Erlang is **140424-422758**.",
+      "prefill_plus_decode_s": 3.3
+    },
+    {
+      "length": 32768,
+      "seed": 41,
+      "depth": 0.75,
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "hit": true,
+      "answer": "<think>\nThe user is asking me to identify the \"special magic number for Zhaoyun\" mentioned in the provided text. Let me search through the text carefully.\n\nLooking through the massive repeated text of",
+      "prefill_plus_decode_s": 21.8
+    },
+    {
+      "length": 32768,
+      "seed": 42,
+      "depth": 0.25,
+      "key": "Wolong",
+      "value": "770487-335075",
+      "hit": true,
+      "answer": "Based on the text provided, the special magic number for Wolong is **770487-335075**.\n\nIt appears in the middle of the repetitive text as follows:\n\"...The sun rises in the east and sets in the west. G",
+      "prefill_plus_decode_s": 17.6
+    },
+    {
+      "length": 32768,
+      "seed": 43,
+      "depth": 0.5,
+      "key": "Erlang",
+      "value": "140424-422758",
+      "hit": true,
+      "answer": "Based on the text provided, the special magic number for Erlang is **140424-422758**.",
+      "prefill_plus_decode_s": 11.9
+    }
+  ],
+  "ckpt": "none",
+  "window": 512,
+  "block_size": 2048,
+  "dense": true
+}

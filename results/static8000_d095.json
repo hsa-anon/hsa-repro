@@ -1,0 +1,45 @@
+{
+  "summary": {
+    "4096": {
+      "hits": 0,
+      "total": 3,
+      "ratio": 0.0
+    }
+  },
+  "details": [
+    {
+      "length": 4096,
+      "seed": 41,
+      "depth": 0.95,
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "hit": false,
+      "answer": "<think>\nThe user is asking about a riddle or riddle-like riddle. Let me parse this carefully.\n\nThe user is asking about a riddle or riddle-like riddle. Let me parse this carefully.\n\nThe user is asking",
+      "prefill_plus_decode_s": 51.4
+    },
+    {
+      "length": 4096,
+      "seed": 42,
+      "depth": 0.95,
+      "key": "Wolong",
+      "value": "770487-335075",
+      "hit": false,
+      "answer": "<think>\nThe user is asking about a riddle or riddle-like riddle. Let me parse this carefully.\n\nThe user is asking about a riddle or riddle-like riddle. Let me parse what's being asked.\n\nThe user is as",
+      "prefill_plus_decode_s": 46.9
+    },
+    {
+      "length": 4096,
+      "seed": 43,
+      "depth": 0.95,
+      "key": "Erlang",
+      "value": "140424-422758",
+      "hit": false,
+      "answer": "The answer to this riddle is: **The Sun** (or the Sun itself).\n\nHere is the breakdown of the riddle:\n\n1.  **\"The sun rises in the east\"**: This is a common idiom meaning that things start in the east.",
+      "prefill_plus_decode_s": 47.0
+    }
+  ],
+  "ckpt": "ckpt/ckpt_8000.pt",
+  "window": 512,
+  "block_size": 2048,
+  "dense": false
+}

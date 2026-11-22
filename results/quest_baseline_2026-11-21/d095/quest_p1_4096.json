@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "4096": {
+      "hits": 0,
+      "total": 3,
+      "ratio": 0.0
+    }
+  },
+  "details": [
+    {
+      "length": 4096,
+      "seed": 41,
+      "depth": 0.95,
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "hit": false,
+      "answer": "<think>\nThe user is asking me to identify the answer hidden within a large block of text. The text appears to be a long string of characters, and I need to find the hidden message within it.\n\nLooking ",
+      "prefill_plus_decode_s": 41.1
+    },
+    {
+      "length": 4096,
+      "seed": 42,
+      "depth": 0.95,
+      "key": "Wolong",
+      "value": "770487-335075",
+      "hit": false,
+      "answer": "<think>\nThe user is asking me to find something hidden in a large block of repeated text. Let me look carefully at the text to find something that breaks the pattern.\n\nThe text appears to be a long re",
+      "prefill_plus_decode_s": 41.0
+    },
+    {
+      "length": 4096,
+      "seed": 43,
+      "depth": 0.95,
+      "key": "Erlang",
+      "value": "140424-422758",
+      "hit": false,
+      "answer": "<think>\nThe user is asking me to identify a specific piece of information hidden within a large text. The text appears to be a long passage that contains various information. Let me look for the key p",
+      "prefill_plus_decode_s": 18.0
+    }
+  ],
+  "ckpt": "/mnt/sfs_turbo/hsa_probe/train_m2/ckpt/ckpt_8000.pt",
+  "window": 512,
+  "block_size": 2048,
+  "dense": false,
+  "decode_quest": 1,
+  "decode_topk": null
+}

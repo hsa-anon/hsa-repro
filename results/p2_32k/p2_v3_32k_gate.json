@@ -1,0 +1,206 @@
+{
+  "summary": {
+    "4096": {
+      "hits": 3,
+      "total": 5,
+      "ratio": 0.6
+    },
+    "32768": {
+      "hits": 2,
+      "total": 5,
+      "ratio": 0.4
+    },
+    "131072": {
+      "hits": 3,
+      "total": 5,
+      "ratio": 0.6
+    }
+  },
+  "details": [
+    {
+      "length": 4096,
+      "seed": 41,
+      "depth": 0.75,
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "hit": true,
+      "answer": "<think>
+The user is asking about a \"special magic number for Zhaoyun\" mentioned in the provided text. Let me search through the text carefully.
+
+Looking through the text, I can find this line:
+
+\"One o",
+      "prefill_plus_decode_s": 21.0
+    },
+    {
+      "length": 4096,
+      "seed": 42,
+      "depth": 0.25,
+      "key": "Wolong",
+      "value": "770487-335075",
+      "hit": false,
+      "answer": "<think>
+The user is asking me to identify \"the special magic number for Wolong\" mentioned in the provided text. Let me search through the text carefully.
+
+Looking through the text, I can find this pas",
+      "prefill_plus_decode_s": 43.8
+    },
+    {
+      "length": 4096,
+      "seed": 43,
+      "depth": 0.5,
+      "key": "Erlang",
+      "value": "140424-422758",
+      "hit": true,
+      "answer": "<think>
+The user is asking me to identify a \"special magic number for Erlang\" mentioned in the provided text. Let me search through the text carefully.
+
+Looking through the text, I can find this line:",
+      "prefill_plus_decode_s": 20.6
+    },
+    {
+      "length": 4096,
+      "seed": 44,
+      "depth": 0.75,
+      "key": "Changshan",
+      "value": "528380-618507",
+      "hit": true,
+      "answer": "<think>
+The user is asking about a \"special magic number for Changshan\" mentioned in the provided text. Let me look through the text carefully.
+
+Looking at the text, I can find this passage:
+
+\"One of ",
+      "prefill_plus_decode_s": 13.6
+    },
+    {
+      "length": 4096,
+      "seed": 45,
+      "depth": 0.25,
+      "key": "Fucheng",
+      "value": "385082-703207",
+      "hit": false,
+      "answer": "<think>
+The user is asking me to identify \"the special magic number for Fucheng mentioned in the provided text.\"
+
+Let me look through the provided text carefully. The text is a long, rambling passage ",
+      "prefill_plus_decode_s": 44.8
+    },
+    {
+      "length": 32768,
+      "seed": 41,
+      "depth": 0.75,
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "hit": true,
+      "answer": "The answer is: 499529-708968. 499529-708968. 499529-708968. 499529-608968. 499529-708968. 499529-708968. 499529-708968. 4995oyun is mentioned in the text as having a special magic number. The number i",
+      "prefill_plus_decode_s": 55.8
+    },
+    {
+      "length": 32768,
+      "seed": 42,
+      "depth": 0.25,
+      "key": "Wolong",
+      "value": "770487-335075",
+      "hit": false,
+      "answer": "The sun rises in the east and sets in the west. Grass is green in the summer.  The sun rises in the east and sets in the west. Grass is green in the summer.  The sun rises in the east and sets in the ",
+      "prefill_plus_decode_s": 56.7
+    },
+    {
+      "length": 32768,
+      "seed": 43,
+      "depth": 0.5,
+      "key": "Erlang",
+      "value": "140424-422758",
+      "hit": false,
+      "answer": "The sun rises in the east and sets in the west. Grass is green in the summer.  The sun rises in the east and sets in the west. Grass is green in the summer.  The sun rises in the east and sets in the ",
+      "prefill_plus_decode_s": 56.3
+    },
+    {
+      "length": 32768,
+      "seed": 44,
+      "depth": 0.75,
+      "key": "Changshan",
+      "value": "528380-618507",
+      "hit": true,
+      "answer": "The answer to the question is: 528380-618507. 528380-618507. 528380-618507. 528380-528380-618507. 528380-618507. 528380-618507. 528380-618507. 528380-618507. 528380-6185shan. 528380-618507. 528380-618",
+      "prefill_plus_decode_s": 56.2
+    },
+    {
+      "length": 32768,
+      "seed": 45,
+      "depth": 0.25,
+      "key": "Fucheng",
+      "value": "385082-703207",
+      "hit": false,
+      "answer": "The sun rises in the east and sets in the west. Grass is green in the summer.  The sun rises in the east and sets in the west. Grass is green in the summer.  The sun rises in the east and sets in the ",
+      "prefill_plus_decode_s": 59.1
+    },
+    {
+      "length": 131072,
+      "seed": 41,
+      "depth": 0.75,
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "hit": true,
+      "answer": "The special magic number for Zhaoyun is 499529-708968. This number is explicitly stated in the text as being associated with Zhaoyun.
+
+Answer: 499529-708968
+
+The sun rises in the east and sets in the ",
+      "prefill_plus_decode_s": 108.6
+    },
+    {
+      "length": 131072,
+      "seed": 42,
+      "depth": 0.25,
+      "key": "Wolong",
+      "value": "770487-335075",
+      "hit": false,
+      "answer": "Wolong is a Chinese name, and the text contains a lot of information about grass, the sun, and the seasons. However, the question asks about a \"special magic number\" for Wolong.
+
+Looking through the t",
+      "prefill_plus_decode_s": 111.2
+    },
+    {
+      "length": 131072,
+      "seed": 43,
+      "depth": 0.5,
+      "key": "Erlang",
+      "value": "140424-422758",
+      "hit": false,
+      "answer": "The sun rises in the east and sets in the west. Grass is green in the summer.  The sun rises in the east and sets in the west. Grass is green in the summer.  The sun rises in the east and sets in the ",
+      "prefill_plus_decode_s": 108.8
+    },
+    {
+      "length": 131072,
+      "seed": 44,
+      "depth": 0.75,
+      "key": "Changshan",
+      "value": "528380-618507",
+      "hit": true,
+      "answer": "The special magic number for Changshan mentioned in the provided text is 528380-618507.
+
+The text states: \"The special magic number for Changshan is 528380-618507.\"
+
+This appears to be a reference to ",
+      "prefill_plus_decode_s": 108.0
+    },
+    {
+      "length": 131072,
+      "seed": 45,
+      "depth": 0.25,
+      "key": "Fucheng",
+      "value": "385082-703207",
+      "hit": true,
+      "answer": "The special magic number for Fucheng mentioned in the provided text is 385082-703207.
+
+The sun rises in the east and sets in the west. Grass is green in the summer.  The sun rises in the east and sets",
+      "prefill_plus_decode_s": 111.0
+    }
+  ],
+  "ckpt": "ckpt/p2_v3_32k/ckpt_50.pt",
+  "window": 512,
+  "block_size": 2048,
+  "dense": false
+}

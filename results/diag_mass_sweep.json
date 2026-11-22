@@ -1,0 +1,65 @@
+{
+  "ckpt_500.pt": {
+    "layers": 16,
+    "window_mass": 0.0005555152893066415,
+    "landmark_mass": 0.02777862548828128,
+    "latent_mass": 0.6875052633695304,
+    "max_latent_logit": 204.0
+  },
+  "ckpt_1000.pt": {
+    "layers": 16,
+    "window_mass": 0.0005555152893066415,
+    "landmark_mass": 0.02777862548828128,
+    "latent_mass": 0.6875052633695304,
+    "max_latent_logit": 204.0
+  },
+  "ckpt_2000.pt": {
+    "layers": 16,
+    "window_mass": 0.0005555152893066415,
+    "landmark_mass": 0.02777862548828128,
+    "latent_mass": 0.6875052633695304,
+    "max_latent_logit": 204.0
+  },
+  "ckpt_3000.pt": {
+    "layers": 16,
+    "window_mass": 0.0005555152893066415,
+    "landmark_mass": 0.02777862548828128,
+    "latent_mass": 0.6875052633695304,
+    "max_latent_logit": 204.0
+  },
+  "ckpt_4000.pt": {
+    "layers": 16,
+    "window_mass": 0.0005555152893066415,
+    "landmark_mass": 0.02777862548828128,
+    "latent_mass": 0.6875052633695304,
+    "max_latent_logit": 204.0
+  },
+  "ckpt_5000.pt": {
+    "layers": 16,
+    "window_mass": 0.0003561973571777344,
+    "landmark_mass": 0.0004839897155761719,
+    "latent_mass": 0.07382202158532893,
+    "max_latent_logit": 410.0
+  },
+  "ckpt_6000.pt": {
+    "layers": 16,
+    "window_mass": 0.0002288818359375,
+    "landmark_mass": 0.0005970001220703125,
+    "latent_mass": 0.06741333031277463,
+    "max_latent_logit": 580.0
+  },
+  "ckpt_7000.pt": {
+    "layers": 16,
+    "window_mass": 0.00024127960205078125,
+    "landmark_mass": 0.00010228157043457031,
+    "latent_mass": 0.05844116222124285,
+    "max_latent_logit": 604.0
+  },
+  "ckpt_8000.pt": {
+    "layers": 16,
+    "window_mass": 0.00024127960205078125,
+    "landmark_mass": 0.00010228157043457031,
+    "latent_mass": 0.05844116222124285,
+    "max_latent_logit": 604.0
+  }
+}

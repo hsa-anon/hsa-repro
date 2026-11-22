@@ -1,0 +1,15 @@
+Warning: Permanently added '[127.0.0.1]:2222' (ED25519) to the list of known hosts.
+2026-11-08 03:23:34,450 INFO device: Ascend950DT_9582 torch 2.10.0+cpu torch_npu 2.10.0+cpu
+/usr/local/python3.12.16/lib/python3.12/site-packages/triton/language/extra/cann/extension/math_ops.py:13: FutureWarning: triton.language.extra.cann.extension.atan2 is deprecated and will be removed in the next release; use triton.language.extra.cann.libdevice.atan2 instead.
+  @_deprecated(replacement="triton.language.extra.cann.libdevice.atan2")
+/usr/local/python3.12.16/lib/python3.12/site-packages/triton/language/extra/cann/extension/math_ops.py:35: FutureWarning: triton.language.extra.cann.extension.isfinited is deprecated and will be removed in the next release; use triton.language.extra.cann.libdevice.isfinited instead.
+  @_deprecated(replacement="triton.language.extra.cann.libdevice.isfinited")
+/usr/local/python3.12.16/lib/python3.12/site-packages/triton/language/extra/cann/extension/math_ops.py:49: FutureWarning: triton.language.extra.cann.extension.finitef is deprecated and will be removed in the next release; use triton.language.extra.cann.libdevice.finitef instead.
+  @_deprecated(replacement="triton.language.extra.cann.libdevice.finitef")
+2026-11-08 03:23:40,136 INFO step=0 time=0.41s loss=1.0473 allocated=7.47GB
+2026-11-08 03:23:40,215 INFO step=1 time=0.08s loss=1.0450 allocated=7.47GB
+2026-11-08 03:23:40,298 INFO step=2 time=0.08s loss=1.0428 allocated=7.47GB
+2026-11-08 03:23:40,387 INFO step=3 time=0.09s loss=1.0406 allocated=7.47GB
+{"verdict": "GO", "times": [0.40545153617858887, 0.07872319221496582, 0.08308720588684082, 0.08847951889038086, 0.08916449546813965], "losses": [1.0472620725631714, 1.0449861288070679, 1.0427587032318115, 1.0405702590942383, 1.0384125709533691]}
+2026-11-08 03:23:40,477 INFO step=4 time=0.09s loss=1.0384 allocated=7.47GB
+2026-11-08 03:23:40,477 INFO verdict=GO per_step_times=[0.41, 0.08, 0.08, 0.09, 0.09]

@@ -1,0 +1,45 @@
+{
+  "summary": {
+    "32768": {
+      "hits": 1,
+      "total": 3,
+      "ratio": 0.3333
+    }
+  },
+  "details": [
+    {
+      "length": 32768,
+      "seed": 41,
+      "depth": 0.75,
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "hit": true,
+      "answer": "Answer: 499529-708968. 499529-708968. 499529-70898. 499529-708968. 499529-708968. 49952haoyun is a character from the Chinese novel \"Romance of the Three Kingdoms.\" He is one of the Five Tiger General",
+      "prefill_plus_decode_s": 32.0
+    },
+    {
+      "length": 32768,
+      "seed": 42,
+      "depth": 0.25,
+      "key": "Wolong",
+      "value": "770487-335075",
+      "hit": false,
+      "answer": "The sun rises in the east and sets in the west. Grass is green in the summer.  The sun rises in the east and sets in the west. Grass is green in the summer.  The sun rises in the east and sets in the ",
+      "prefill_plus_decode_s": 56.5
+    },
+    {
+      "length": 32768,
+      "seed": 43,
+      "depth": 0.5,
+      "key": "Erlang",
+      "value": "140424-422758",
+      "hit": false,
+      "answer": "The sun rises in the east and sets in the west. Grass is green in the summer.  The sun rises in the east and sets in the west. Grass is green in the summer.  The sun rises in the east and sets in the ",
+      "prefill_plus_decode_s": 54.4
+    }
+  ],
+  "ckpt": "ckpt/p2b_w10_16k/ckpt_300.pt",
+  "window": 512,
+  "block_size": 2048,
+  "dense": false
+}

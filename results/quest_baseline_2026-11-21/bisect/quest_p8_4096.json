@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "4096": {
+      "hits": 0,
+      "total": 3,
+      "ratio": 0.0
+    }
+  },
+  "details": [
+    {
+      "length": 4096,
+      "seed": 41,
+      "depth": 0.75,
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "hit": false,
+      "answer": "<think>\nThe user is asking me to find a specific piece of information hidden within a large block of repetitive text. Let me scan through the text to find the non-repetitive portion.\n\nThe text is most",
+      "prefill_plus_decode_s": 42.6
+    },
+    {
+      "length": 4096,
+      "seed": 42,
+      "depth": 0.75,
+      "key": "Wolong",
+      "value": "770487-335075",
+      "hit": false,
+      "answer": "<think>\nThe user is asking me to find a specific piece of information hidden within a large block of repetitive text. Let me search through the text to find the embedded information.\n\nLooking through ",
+      "prefill_plus_decode_s": 41.6
+    },
+    {
+      "length": 4096,
+      "seed": 43,
+      "depth": 0.75,
+      "key": "Erlang",
+      "value": "140424-422758",
+      "hit": false,
+      "answer": "<think>\nThe user is asking me to identify a \"special\" or hidden message hidden within a large block of repetitive text. Let me look through the text carefully.\n\nThe text is mostly \"The sun rises in th",
+      "prefill_plus_decode_s": 40.5
+    }
+  ],
+  "ckpt": "/mnt/sfs_turbo/hsa_probe/train_m2/ckpt/ckpt_8000.pt",
+  "window": 512,
+  "block_size": 2048,
+  "dense": false,
+  "decode_quest": 8,
+  "decode_topk": null
+}

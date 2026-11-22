@@ -1,0 +1,45 @@
+{
+  "summary": {
+    "4096": {
+      "hits": 3,
+      "total": 3,
+      "ratio": 1.0
+    }
+  },
+  "details": [
+    {
+      "length": 4096,
+      "seed": 41,
+      "depth": 0.95,
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "hit": true,
+      "answer": "Based on the text provided, the \"special magic number\" associated with Zhaoyun is **499529-708968**.\n\nThis appears in the sentence: *\"The special magic number for Zhaoyun is: 499529-708968.\"*\n\n(Note: ",
+      "prefill_plus_decode_s": 29.1
+    },
+    {
+      "length": 4096,
+      "seed": 42,
+      "depth": 0.95,
+      "key": "Wolong",
+      "value": "770487-335075",
+      "hit": true,
+      "answer": "Based on the text provided, the \"special magic number\" for **Wolong** (which refers to the \"Wolongs\" or \"Grass\" mentioned in the context of the \"Wolongs\" or \"Grass\" being green in the summer, or speci",
+      "prefill_plus_decode_s": 39.1
+    },
+    {
+      "length": 4096,
+      "seed": 43,
+      "depth": 0.95,
+      "key": "Erlang",
+      "value": "140424-422758",
+      "hit": true,
+      "answer": "Based on the text provided, the \"special magic number\" for Erlang is **140424-422758**.\n\nThis is found in the sentence: \"One of the special magic numbers for Erlang is: 140424-422758.\"\n\n*(Note: In the",
+      "prefill_plus_decode_s": 57.3
+    }
+  ],
+  "ckpt": "results/m2_ckpt/ckpt_8000.pt",
+  "window": 512,
+  "block_size": 2048,
+  "dense": false
+}

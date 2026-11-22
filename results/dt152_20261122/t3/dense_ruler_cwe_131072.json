@@ -1,0 +1,86 @@
+{
+  "summary": {
+    "131072": {
+      "hits": 3,
+      "total": 3,
+      "ratio": 1.0
+    }
+  },
+  "details": [
+    {
+      "length": 131072,
+      "seed": 41,
+      "depth": 0.75,
+      "task": "cwe",
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "expected": [
+        "myrvik490",
+        "myrvik440",
+        "myrvik336",
+        "myrvik270",
+        "myrvik494",
+        "myrvik691",
+        "myrvik806",
+        "myrvik390",
+        "myrvik666",
+        "myrvik383"
+      ],
+      "hit": true,
+      "answer": "<think>\nThe user wants me to find the 10 most common words in the provided text. Let me analyze the text.\n\nLooking at the text, it appears to be a long list of words/tokens separated by spaces. Let me",
+      "prefill_plus_decode_s": 87.8
+    },
+    {
+      "length": 131072,
+      "seed": 42,
+      "depth": 0.25,
+      "task": "cwe",
+      "key": "Wolong",
+      "value": "770487-335075",
+      "expected": [
+        "myrvik754",
+        "myrvik214",
+        "myrvik125",
+        "myrvik859",
+        "myrvik381",
+        "myrvik350",
+        "myrvik328",
+        "myrvik242",
+        "myrvik854",
+        "myrvik204"
+      ],
+      "hit": true,
+      "answer": "<think>\nThe user wants me to find the 10 most common words in the provided text. Let me analyze the text.\n\nLooking at the text, it appears to be a long list of words, mostly starting with \"zelvar\" fol",
+      "prefill_plus_decode_s": 88.1
+    },
+    {
+      "length": 131072,
+      "seed": 43,
+      "depth": 0.5,
+      "task": "cwe",
+      "key": "Erlang",
+      "value": "140424-422758",
+      "expected": [
+        "myrvik139",
+        "myrvik392",
+        "myrvik812",
+        "myrvik880",
+        "myrvik247",
+        "myrvik573",
+        "myrvik478",
+        "myrvik787",
+        "myrvik815",
+        "myrvik911"
+      ],
+      "hit": true,
+      "answer": "<think>\nThe user wants me to find the 10 most common words in the provided text. Let me analyze the text.\n\nLooking at the text, it appears to be a long list of words, mostly starting with \"zelvar\" fol",
+      "prefill_plus_decode_s": 88.1
+    }
+  ],
+  "ckpt": null,
+  "window": 512,
+  "block_size": 2048,
+  "dense": true,
+  "decode_quest": null,
+  "decode_topk": null
+}

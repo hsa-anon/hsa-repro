@@ -1,0 +1,128 @@
+{
+  "ckpt_500.pt": {
+    "4096/d0.95": {
+      "hit": false,
+      "ans": "The user is asking a question about a specific phrase or phraseology related to "
+    },
+    "4096/d0.75": {
+      "hit": false,
+      "ans": "The user is asking a question about a specific phrase or phraseology related to "
+    },
+    "4096/d0.5": {
+      "hit": false,
+      "ans": "The answer to this riddle is: **The Sun** (or the Sun itself).\n\nHere is the brea"
+    }
+  },
+  "ckpt_1000.pt": {
+    "4096/d0.95": {
+      "hit": false,
+      "ans": "The user is asking a question about a specific location or direction based on a "
+    },
+    "4096/d0.75": {
+      "hit": false,
+      "ans": "The user is asking a question about a specific location or direction, likely ref"
+    },
+    "4096/d0.5": {
+      "hit": false,
+      "ans": "The user is asking a riddle or a riddle-like question. The text provided is a bi"
+    }
+  },
+  "ckpt_2000.pt": {
+    "4096/d0.95": {
+      "hit": false,
+      "ans": "The user is asking a question about a riddle or a riddle-like riddle.\nThe user i"
+    },
+    "4096/d0.75": {
+      "hit": false,
+      "ans": "The user is asking a question about a riddle or a riddle. The user is asking abo"
+    },
+    "4096/d0.5": {
+      "hit": false,
+      "ans": "The user is asking a question about a riddle or a riddle.\nThe user is asking abo"
+    }
+  },
+  "ckpt_3000.pt": {
+    "4096/d0.95": {
+      "hit": false,
+      "ans": "The user is asking a question about a riddle or a riddle.\nThe user is asking abo"
+    },
+    "4096/d0.75": {
+      "hit": false,
+      "ans": "The user is asking a question that conflates several different concepts and meta"
+    },
+    "4096/d0.5": {
+      "hit": false,
+      "ans": "The user is asking a question about the color of the sky.\nThe user is asking abo"
+    }
+  },
+  "ckpt_4000.pt": {
+    "4096/d0.95": {
+      "hit": false,
+      "ans": "The user is asking a question about a specific cultural or literary reference, l"
+    },
+    "4096/d0.75": {
+      "hit": false,
+      "ans": "The user is asking a question about a riddle or a riddle. The question is a bit "
+    },
+    "4096/d0.5": {
+      "hit": false,
+      "ans": "The user is asking a question about the color of the sky.\nThe user is asking abo"
+    }
+  },
+  "ckpt_5000.pt": {
+    "4096/d0.95": {
+      "hit": false,
+      "ans": "The user is asking a question about a riddle or a riddle.\nThe user is asking abo"
+    },
+    "4096/d0.75": {
+      "hit": false,
+      "ans": "The user is asking a question that conflates several different concepts and meta"
+    },
+    "4096/d0.5": {
+      "hit": false,
+      "ans": "The user is asking a question about the color of the sky.\nThe user is asking abo"
+    }
+  },
+  "ckpt_6000.pt": {
+    "4096/d0.95": {
+      "hit": false,
+      "ans": "The user is asking a question about a riddle or a riddle.\nThe user is asking abo"
+    },
+    "4096/d0.75": {
+      "hit": false,
+      "ans": "The user is asking a question about a riddle or a riddle. The question is a bit "
+    },
+    "4096/d0.5": {
+      "hit": false,
+      "ans": "The user is asking a question about the color of the sky.\nThe user is asking abo"
+    }
+  },
+  "ckpt_7000.pt": {
+    "4096/d0.95": {
+      "hit": false,
+      "ans": "The user is asking a question about a riddle or a riddle.\nThe user is asking abo"
+    },
+    "4096/d0.75": {
+      "hit": false,
+      "ans": "The user is asking a question about a riddle or a riddle. The question is a bit "
+    },
+    "4096/d0.5": {
+      "hit": false,
+      "ans": "The user is asking a question about the color of the sky.\nThe user is asking abo"
+    }
+  },
+  "ckpt_8000.pt": {
+    "4096/d0.95": {
+      "hit": false,
+      "ans": "The user is asking a question about a riddle or a riddle.\nThe user is asking abo"
+    },
+    "4096/d0.75": {
+      "hit": false,
+      "ans": "The user is asking a question about a riddle or a riddle. The question is a bit "
+    },
+    "4096/d0.5": {
+      "hit": false,
+      "ans": "The user is asking a question about the color of the sky.\nThe user is asking abo"
+    }
+  }
+}

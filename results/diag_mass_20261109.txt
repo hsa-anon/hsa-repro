@@ -1,0 +1,26 @@
+Raw record: decode attention-mass diagnostic (diag_mass.py), 2026-11-09
+
+Provenance
+- Script: npu-backup-20261116/train_m2/diag_mass.py (prints to stdout only,
+  no file artifact; this capture is the raw record)
+- Execution: NPU Ascend 950DT, container hsa-train, train_m2 workdir;
+  trained arm = ckpt_8000 tier weights, untrained arm = init tier weights;
+  4096-token RULER NIAH prompt, instrumented decode over 16 full-attn layers
+- Date: 2026-11-09 22:17 CST (UTC 14:17)
+- Captured verbatim from session tool_result (session dbbd5925,
+  result ts 2026-11-09T14:17:36.274Z, tool_use chatcmpl-tool-b9b03530534fe0a4)
+
+Output (verbatim)
+
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+[untrained] gen: '\n\nBased on the text provided, the "special magic number" mentioned is **499529**.\n\n'
+[untrained] decode mass avg over 16 layers: window=0.002 landmark=0.098 latent=0.000 max_logit=20.38
+[trained] gen: '\n\nThe user is asking a question about a specific narrative or narrative context, likely
+[trained] decode mass avg over 16 layers: window=0.000 landmark=0.002 latent=0.875 max_logit=660.00
+
+Notes
+- This is the figure source for the collapse narrative (fig_collapse).
+- The 2026-11-16 rerun (diag_mass_sweep.json: 0.001/0.028/0.688, max_logit 604)
+  used a reworked tier_cache last_mass (pitfall 42) and is NOT interchangeable
+  with this record.

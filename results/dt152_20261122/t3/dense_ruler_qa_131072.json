@@ -1,0 +1,53 @@
+{
+  "summary": {
+    "131072": {
+      "hits": 3,
+      "total": 3,
+      "ratio": 1.0
+    }
+  },
+  "details": [
+    {
+      "length": 131072,
+      "seed": 41,
+      "depth": 0.75,
+      "task": "qa",
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "expected": "Velenje",
+      "hit": true,
+      "answer": "Based on the text provided, the **grasveld-7242** partnership agreement was signed in **Velenje**.\n\nThe relevant sentence in the text is:\n> \"The grasveld-7242 partnership agreement was signed in Velen",
+      "prefill_plus_decode_s": 56.4
+    },
+    {
+      "length": 131072,
+      "seed": 42,
+      "depth": 0.25,
+      "task": "qa",
+      "key": "Wolong",
+      "value": "770487-335075",
+      "expected": "Ravensburg",
+      "hit": true,
+      "answer": "Based on the text provided, the **grasveld-2824** partnership agreement was signed in **Ravensburg**.\n\nThis is found in the final paragraph of the text: \"The grasveld-2824 partnership agreement was si",
+      "prefill_plus_decode_s": 56.6
+    },
+    {
+      "length": 131072,
+      "seed": 43,
+      "depth": 0.5,
+      "task": "qa",
+      "key": "Erlang",
+      "value": "140424-422758",
+      "expected": "Ostrowiec",
+      "hit": true,
+      "answer": "Based on the text provided, the **grasveld-1631** partnership agreement was signed in **Ostrowiec**.\n\nThe relevant sentence in the text is:\n> \"The grasveld-1631 partnership agreement was signed in Ost",
+      "prefill_plus_decode_s": 56.8
+    }
+  ],
+  "ckpt": null,
+  "window": 512,
+  "block_size": 2048,
+  "dense": true,
+  "decode_quest": null,
+  "decode_topk": null
+}

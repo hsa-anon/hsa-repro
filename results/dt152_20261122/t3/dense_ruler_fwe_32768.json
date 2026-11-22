@@ -1,0 +1,65 @@
+{
+  "summary": {
+    "32768": {
+      "hits": 3,
+      "total": 3,
+      "ratio": 1.0
+    }
+  },
+  "details": [
+    {
+      "length": 32768,
+      "seed": 41,
+      "depth": 0.75,
+      "task": "fwe",
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "expected": [
+        "krovex490",
+        "krovex440",
+        "krovex336"
+      ],
+      "hit": true,
+      "answer": "<think>\nThe user wants me to find the 3 most frequent words in the provided text. Let me analyze the text.\n\nLooking at the text, I can see it's a long list of words. Let me identify the distinct words",
+      "prefill_plus_decode_s": 46.0
+    },
+    {
+      "length": 32768,
+      "seed": 42,
+      "depth": 0.25,
+      "task": "fwe",
+      "key": "Wolong",
+      "value": "770487-335075",
+      "expected": [
+        "krovex754",
+        "krovex214",
+        "krovex125"
+      ],
+      "hit": true,
+      "answer": "<think>\nThe user wants me to find the 3 most frequent words in the provided text. Let me analyze the text.\n\nLooking at the text, I can see it's composed of words like \"zelvar\" followed by numbers, and",
+      "prefill_plus_decode_s": 45.9
+    },
+    {
+      "length": 32768,
+      "seed": 43,
+      "depth": 0.5,
+      "task": "fwe",
+      "key": "Erlang",
+      "value": "140424-422758",
+      "expected": [
+        "krovex139",
+        "krovex392",
+        "krovex812"
+      ],
+      "hit": true,
+      "answer": "<think>\nThe user wants me to find the 3 most frequent words in the provided text. Let me analyze the text.\n\nLooking at the text, I can see it's composed of words that start with either \"zelvar\" or \"kr",
+      "prefill_plus_decode_s": 45.8
+    }
+  ],
+  "ckpt": null,
+  "window": 512,
+  "block_size": 2048,
+  "dense": true,
+  "decode_quest": null,
+  "decode_topk": null
+}

@@ -1,0 +1,25 @@
+Raw record: teacher-forced 3-way probe (diag_tf_probe.py), 2026-11-09
+
+Provenance
+- Script: scripts/950dt/diag_tf_probe.py (committed; source of truth for protocol)
+- Execution: NPU Ascend 950DT, container hsa-train, train_m2 workdir; ckpt_8000.pt
+- Date: 2026-11-09 22:05 CST (UTC 14:05)
+- Captured verbatim from session tool_result (session dbbd5925,
+  tool_use chatcmpl-tool-a3750c8e681c1a28, result ts 2026-11-09T14:17Z);
+  diag_tf_probe.py prints to stdout only, so this capture is the raw record.
+- Protocol: single 4096-token RULER NIAH prompt (build_prompt, key Fucheng,
+  value rng_val(41), depth 0.95, seed 41); teacher-forced cross-entropy on the
+  last 256 positions; three arms on the same loaded model:
+  dense (no tier mode) / tier-untrained (tier mode, init weights) /
+  tier-trained (ckpt_8000 tier weights loaded). NOT a corpus NLL.
+
+Output (verbatim)
+
+[dense] tail_nll=3.5112 top5=[('\n\n', 20.38), (' Based', 12.81), (' What', 12.69), (' The', 12.0), (' ', 11.88)]
+[tier-untrained] tail_nll=3.0877 top5=[('\n\n', 11.62), ('\n', 11.0), ('<|im_end|>', 10.94), (' The', 10.88), (' What', 9.19)]
+[tier-trained] tail_nll=2.9160 top5=[('\n\n', 13.19), ('<|im_end|>', 12.56), (' The', 10.0), ('\n\n\n', 9.44), ('\n', 9.44)]
+
+Mapping to draft: the trained tier model's tail-256 teacher-forced NLL (2.92)
+< untrained tier (3.09) < dense backbone without tier weights (3.51).
+Distinct from ckpt_8000's training-log student_lm 2.8527 (per-step train CE,
+last entry step 7999) - different quantity, different number, both real.

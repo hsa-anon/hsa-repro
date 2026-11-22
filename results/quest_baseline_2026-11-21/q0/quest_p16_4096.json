@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "4096": {
+      "hits": 0,
+      "total": 3,
+      "ratio": 0.0
+    }
+  },
+  "details": [
+    {
+      "length": 4096,
+      "seed": 41,
+      "depth": 0.75,
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "hit": false,
+      "answer": "<think>\nThe user is asking me to find a \"special magic number\" for Zhaoyun that is hidden within a large block of repetitive text. Let me search through the text carefully.\n\nLooking through the text, ",
+      "prefill_plus_decode_s": 30.3
+    },
+    {
+      "length": 4096,
+      "seed": 42,
+      "depth": 0.75,
+      "key": "Wolong",
+      "value": "770487-335075",
+      "hit": false,
+      "answer": "<think>\nThe user is asking me to find a specific piece of information hidden within a large block of repetitive text. Let me search through the text carefully.\n\nThe text is mostly \"The sun rises in th",
+      "prefill_plus_decode_s": 38.6
+    },
+    {
+      "length": 4096,
+      "seed": 43,
+      "depth": 0.75,
+      "key": "Erlang",
+      "value": "140424-422758",
+      "hit": false,
+      "answer": "Based on the text provided, the special number mentioned is **141733920**.\n\nWhile the text contains a sentence stating \"One of the special numbers is 140733187,\" this is a false statement (a \"canary\" ",
+      "prefill_plus_decode_s": 41.6
+    }
+  ],
+  "ckpt": "/mnt/sfs_turbo/hsa_probe/train_m2/ckpt/ckpt_8000.pt",
+  "window": 512,
+  "block_size": 2048,
+  "dense": false,
+  "decode_quest": 16,
+  "decode_topk": null
+}

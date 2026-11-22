@@ -1,0 +1,45 @@
+{
+  "summary": {
+    "4096": {
+      "hits": 0,
+      "total": 3,
+      "ratio": 0.0
+    }
+  },
+  "details": [
+    {
+      "length": 4096,
+      "seed": 41,
+      "depth": 0.75,
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "hit": false,
+      "answer": "<think>\nThe user is asking about \"the special magic number for Zhaoyun mentioned in the provided text.\" Let me carefully read through the entire provided text to find any mention of Zhaoyun or a speci",
+      "prefill_plus_decode_s": 32.1
+    },
+    {
+      "length": 4096,
+      "seed": 42,
+      "depth": 0.75,
+      "key": "Wolong",
+      "value": "770487-335075",
+      "hit": false,
+      "answer": "Based on the text provided, there is **no mention** of a \"special magic number\" for Wolong.\n\nThe text consists of a repetitive, stream-of-consciousness description of natural phenomena (the sun rising",
+      "prefill_plus_decode_s": 16.7
+    },
+    {
+      "length": 4096,
+      "seed": 43,
+      "depth": 0.75,
+      "key": "Erlang",
+      "value": "140424-422758",
+      "hit": false,
+      "answer": "Based on the text provided, there is **no mention** of a \"special magic number\" for Erlang.\n\nThe text consists of a repetitive, stream-of-consciousness description of natural phenomena (the sun rising",
+      "prefill_plus_decode_s": 18.3
+    }
+  ],
+  "ckpt": "ckpt/ckpt_8000.pt",
+  "window": 512,
+  "block_size": 2048,
+  "dense": false
+}

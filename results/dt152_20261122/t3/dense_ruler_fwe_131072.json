@@ -1,0 +1,65 @@
+{
+  "summary": {
+    "131072": {
+      "hits": 3,
+      "total": 3,
+      "ratio": 1.0
+    }
+  },
+  "details": [
+    {
+      "length": 131072,
+      "seed": 41,
+      "depth": 0.75,
+      "task": "fwe",
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "expected": [
+        "krovex490",
+        "krovex440",
+        "krovex336"
+      ],
+      "hit": true,
+      "answer": "<think>\nThe user wants me to find the 3 most frequent words in the provided text. Let me analyze the text.\n\nLooking at the text, I can see it's a long list of words. The words that appear to be repeat",
+      "prefill_plus_decode_s": 87.8
+    },
+    {
+      "length": 131072,
+      "seed": 42,
+      "depth": 0.25,
+      "task": "fwe",
+      "key": "Wolong",
+      "value": "770487-335075",
+      "expected": [
+        "krovex754",
+        "krovex214",
+        "krovex125"
+      ],
+      "hit": true,
+      "answer": "<think>\nThe user wants me to find the 3 most frequent words in the provided text. Let me analyze the text.\n\nLooking at the text, I can see it's a long list of words. The words that appear to be repeat",
+      "prefill_plus_decode_s": 86.7
+    },
+    {
+      "length": 131072,
+      "seed": 43,
+      "depth": 0.5,
+      "task": "fwe",
+      "key": "Erlang",
+      "value": "140424-422758",
+      "expected": [
+        "krovex139",
+        "krovex392",
+        "krovex812"
+      ],
+      "hit": true,
+      "answer": "<think>\nThe user wants me to find the 3 most frequent words in the provided text. Let me analyze the text.\n\nLooking at the text, I can see it's a long list of words. The words that appear to be repeat",
+      "prefill_plus_decode_s": 87.8
+    }
+  ],
+  "ckpt": null,
+  "window": 512,
+  "block_size": 2048,
+  "dense": true,
+  "decode_quest": null,
+  "decode_topk": null
+}

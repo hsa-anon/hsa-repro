@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "4096": {
+      "hits": 3,
+      "total": 3,
+      "ratio": 1.0
+    }
+  },
+  "details": [
+    {
+      "length": 4096,
+      "seed": 41,
+      "depth": 0.95,
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "hit": true,
+      "answer": "Based on the text provided, the special magic number for Zhaoyun is **499529-708968**.",
+      "prefill_plus_decode_s": 4.8
+    },
+    {
+      "length": 4096,
+      "seed": 42,
+      "depth": 0.95,
+      "key": "Wolong",
+      "value": "770487-335075",
+      "hit": true,
+      "answer": "<think>\nThe user is asking me to identify the \"special magic number for Wolong\" mentioned in the provided text. Let me look through the text carefully.\n\nThe text is mostly a repetition of \"The sun ris",
+      "prefill_plus_decode_s": 13.9
+    },
+    {
+      "length": 4096,
+      "seed": 43,
+      "depth": 0.95,
+      "key": "Erlang",
+      "value": "140424-422758",
+      "hit": true,
+      "answer": "<think>\nThe user is asking me to identify the \"special magic number for Erlang\" mentioned in the provided text. Let me look through the text carefully.\n\nThe text is mostly a repeated phrase \"The sun r",
+      "prefill_plus_decode_s": 14.5
+    }
+  ],
+  "ckpt": "/mnt/sfs_turbo/hsa_probe/train_m2/ckpt/ckpt_8000.pt",
+  "window": 512,
+  "block_size": 2048,
+  "dense": false,
+  "decode_quest": 32,
+  "decode_topk": null
+}

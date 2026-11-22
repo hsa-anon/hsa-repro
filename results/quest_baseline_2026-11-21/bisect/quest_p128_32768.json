@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "32768": {
+      "hits": 0,
+      "total": 3,
+      "ratio": 0.0
+    }
+  },
+  "details": [
+    {
+      "length": 32768,
+      "seed": 41,
+      "depth": 0.75,
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "hit": false,
+      "answer": "<think>\nThe user is asking me to find a \"special number\" for \"Zhaoyun\" hidden within a large block of repetitive text. Let me search through the text carefully.\n\nLooking through the text, I can see th",
+      "prefill_plus_decode_s": 33.4
+    },
+    {
+      "length": 32768,
+      "seed": 42,
+      "depth": 0.75,
+      "key": "Wolong",
+      "value": "770487-335075",
+      "hit": false,
+      "answer": "<think>\nThe user is asking me to identify a specific piece of information hidden within a large amount of repetitive text. Let me scan through the text to find the unique information.\n\nLooking through",
+      "prefill_plus_decode_s": 42.2
+    },
+    {
+      "length": 32768,
+      "seed": 43,
+      "depth": 0.75,
+      "key": "Erlang",
+      "value": "140424-422758",
+      "hit": false,
+      "answer": "<think>\nThe user is asking me to identify a \"special number\" mentioned in the text. Let me look through the text carefully.\n\nThe text is mostly repetitive phrases \"The sun rises in the east and sets i",
+      "prefill_plus_decode_s": 47.4
+    }
+  ],
+  "ckpt": "/mnt/sfs_turbo/hsa_probe/train_m2/ckpt/ckpt_8000.pt",
+  "window": 512,
+  "block_size": 2048,
+  "dense": false,
+  "decode_quest": 128,
+  "decode_topk": null
+}

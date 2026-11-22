@@ -1,0 +1,46 @@
+{
+  "summary": {
+    "32768": {
+      "hits": 2,
+      "total": 3,
+      "ratio": 0.6667
+    }
+  },
+  "details": [
+    {
+      "length": 32768,
+      "seed": 41,
+      "depth": 0.75,
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "hit": true,
+      "answer": "The special magic number for Zhaoyun mentioned in the provided text is 499529-708968. This number is explicitly stated in the text as \"One of the special magic numbers for Zhaoyun is: 499529-708968.\"
+",
+      "prefill_plus_decode_s": 24.8
+    },
+    {
+      "length": 32768,
+      "seed": 42,
+      "depth": 0.25,
+      "key": "Wolong",
+      "value": "770487-335075",
+      "hit": false,
+      "answer": "The sun rises in the east and sets in the west. Grass is green in the summer.  The sun rises in the east and sets in the west. Grass is green in the summer.  The sun rises in the east and sets in the ",
+      "prefill_plus_decode_s": 54.1
+    },
+    {
+      "length": 32768,
+      "seed": 43,
+      "depth": 0.5,
+      "key": "Erlang",
+      "value": "140424-422758",
+      "hit": true,
+      "answer": "The answer is: 140424-422758",
+      "prefill_plus_decode_s": 19.6
+    }
+  ],
+  "ckpt": "ckpt/p2b_w10_16k/ckpt_100.pt",
+  "window": 512,
+  "block_size": 2048,
+  "dense": false
+}

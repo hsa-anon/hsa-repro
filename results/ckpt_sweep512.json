@@ -1,0 +1,128 @@
+{
+  "ckpt_500.pt": {
+    "4096/d0.95": {
+      "hit": false,
+      "ans": "The user is asking a question about a specific phrase or phraseology related to "
+    },
+    "4096/d0.75": {
+      "hit": false,
+      "ans": "The user is asking about the \"grass\" or \"grass\" in the context of the \"grass\" or"
+    },
+    "4096/d0.5": {
+      "hit": false,
+      "ans": "The user is asking a question about a specific phrase or phraseology related to "
+    }
+  },
+  "ckpt_1000.pt": {
+    "4096/d0.95": {
+      "hit": false,
+      "ans": ""
+    },
+    "4096/d0.75": {
+      "hit": false,
+      "ans": "The user is asking about the \"grass\" or \"grass\" in the context of the \"grass\" or"
+    },
+    "4096/d0.5": {
+      "hit": false,
+      "ans": ""
+    }
+  },
+  "ckpt_2000.pt": {
+    "4096/d0.95": {
+      "hit": false,
+      "ans": "The user is asking a question about a riddle or a riddle-like riddle.\nThe user i"
+    },
+    "4096/d0.75": {
+      "hit": false,
+      "ans": "The user is asking a question about a specific cultural or literary reference, l"
+    },
+    "4096/d0.5": {
+      "hit": false,
+      "ans": "The user is asking a question about the direction of the sun and the sun's posit"
+    }
+  },
+  "ckpt_3000.pt": {
+    "4096/d0.95": {
+      "hit": false,
+      "ans": "The user is asking a question about a riddle or a riddle-like riddle.\nThe user i"
+    },
+    "4096/d0.75": {
+      "hit": false,
+      "ans": "The user is asking a question about a specific cultural or literary reference, l"
+    },
+    "4096/d0.5": {
+      "hit": false,
+      "ans": "The user is asking a question about the direction of the sun and the sun's posit"
+    }
+  },
+  "ckpt_4000.pt": {
+    "4096/d0.95": {
+      "hit": false,
+      "ans": "The user is asking a question about a riddle or a riddle-like riddle. The user i"
+    },
+    "4096/d0.75": {
+      "hit": false,
+      "ans": "The user is asking a question about a specific cultural or literary reference, l"
+    },
+    "4096/d0.5": {
+      "hit": false,
+      "ans": "The user is asking a question about the direction of the sun and the sun's posit"
+    }
+  },
+  "ckpt_5000.pt": {
+    "4096/d0.95": {
+      "hit": false,
+      "ans": "The user is asking a question about a riddle or a riddle-like riddle. The user i"
+    },
+    "4096/d0.75": {
+      "hit": false,
+      "ans": "The user is asking a question about a specific cultural or literary reference, l"
+    },
+    "4096/d0.5": {
+      "hit": false,
+      "ans": "The user is asking a question about the direction of the sun and the sun's posit"
+    }
+  },
+  "ckpt_6000.pt": {
+    "4096/d0.95": {
+      "hit": false,
+      "ans": "The user is asking a question about a riddle or a riddle-like riddle. The user i"
+    },
+    "4096/d0.75": {
+      "hit": false,
+      "ans": "The user is asking a question about a specific cultural or literary reference, l"
+    },
+    "4096/d0.5": {
+      "hit": false,
+      "ans": "The user is asking a question about the direction of the sun and the sun's posit"
+    }
+  },
+  "ckpt_7000.pt": {
+    "4096/d0.95": {
+      "hit": false,
+      "ans": "The user is asking a question about a riddle or a riddle-like riddle. The user i"
+    },
+    "4096/d0.75": {
+      "hit": false,
+      "ans": "The user is asking a question about a specific cultural or literary reference, l"
+    },
+    "4096/d0.5": {
+      "hit": false,
+      "ans": "The user is asking a question about the direction of the sun and the sun's posit"
+    }
+  },
+  "ckpt_8000.pt": {
+    "4096/d0.95": {
+      "hit": false,
+      "ans": "The user is asking a question about a riddle or a riddle-like riddle. The user i"
+    },
+    "4096/d0.75": {
+      "hit": false,
+      "ans": "The user is asking a question about a specific cultural or literary reference, l"
+    },
+    "4096/d0.5": {
+      "hit": false,
+      "ans": "The user is asking a question about the direction of the sun and the sun's posit"
+    }
+  }
+}

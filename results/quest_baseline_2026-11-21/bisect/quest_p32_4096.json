@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "4096": {
+      "hits": 2,
+      "total": 3,
+      "ratio": 0.6667
+    }
+  },
+  "details": [
+    {
+      "length": 4096,
+      "seed": 41,
+      "depth": 0.75,
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "hit": true,
+      "answer": "<think>\nThe user is asking me to identify the \"special magic number\" for Zhaoyun that is hidden within a large block of repetitive text. Let me search through the text carefully.\n\nLooking through the ",
+      "prefill_plus_decode_s": 32.6
+    },
+    {
+      "length": 4096,
+      "seed": 42,
+      "depth": 0.75,
+      "key": "Wolong",
+      "value": "770487-335075",
+      "hit": true,
+      "answer": "<think>\nThe user is asking me about a \"special magic number\" for Wolong (\u5367\u9f99) that is embedded in the text. Let me look through the text carefully.\n\nThe text is mostly repetitive: \"The sun rises in the",
+      "prefill_plus_decode_s": 27.9
+    },
+    {
+      "length": 4096,
+      "seed": 43,
+      "depth": 0.75,
+      "key": "Erlang",
+      "value": "140424-422758",
+      "hit": false,
+      "answer": "<think>\nThe user is asking me about a \"special magic number\" for Erlang that is hidden within a large block of repetitive text. Let me look through the text carefully.\n\nI can see the text is mostly \"T",
+      "prefill_plus_decode_s": 41.1
+    }
+  ],
+  "ckpt": "/mnt/sfs_turbo/hsa_probe/train_m2/ckpt/ckpt_8000.pt",
+  "window": 512,
+  "block_size": 2048,
+  "dense": false,
+  "decode_quest": 32,
+  "decode_topk": null
+}

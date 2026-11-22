@@ -1,0 +1,45 @@
+{
+  "summary": {
+    "4096": {
+      "hits": 1,
+      "total": 3,
+      "ratio": 0.3333
+    }
+  },
+  "details": [
+    {
+      "length": 4096,
+      "seed": 41,
+      "depth": 0.5,
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "hit": true,
+      "answer": "<think>\nThe user is asking about a \"special magic number for Zhaoyun\" mentioned in the provided text. Let me carefully read through the entire text to find any reference to Zhaoyun and a magic number.",
+      "prefill_plus_decode_s": 22.0
+    },
+    {
+      "length": 4096,
+      "seed": 42,
+      "depth": 0.5,
+      "key": "Wolong",
+      "value": "770487-335075",
+      "hit": false,
+      "answer": "<think>\nThe user is asking me to identify \"the special magic number for Wolong mentioned in the provided text.\"\n\nLet me search through the provided text for any mention of \"Wolong\" and a \"magic number",
+      "prefill_plus_decode_s": 41.9
+    },
+    {
+      "length": 4096,
+      "seed": 43,
+      "depth": 0.5,
+      "key": "Erlang",
+      "value": "140424-422758",
+      "hit": false,
+      "answer": "<think>\nThe user is asking me to identify \"the special magic number for Erlang mentioned in the provided text.\"\n\nLet me search through the provided text for any mention of Erlang or a magic number.\n\nL",
+      "prefill_plus_decode_s": 42.7
+    }
+  ],
+  "ckpt": "ckpt/ckpt_8000.pt",
+  "window": 512,
+  "block_size": 2048,
+  "dense": false
+}

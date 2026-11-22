@@ -1,0 +1,53 @@
+{
+  "summary": {
+    "32768": {
+      "hits": 2,
+      "total": 3,
+      "ratio": 0.6667
+    }
+  },
+  "details": [
+    {
+      "length": 32768,
+      "seed": 41,
+      "depth": 0.75,
+      "task": "vt",
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "expected": "448362-336",
+      "hit": true,
+      "answer": "Based on the text provided, the value of `VAR_grasveld72424` is defined as:\n\n**VAR_grasveld72422**\n\nThis is indicated by the line: `VAR_grasveld72424 = VAR_grasveld72422.`\n\n*(Note: The text also defin",
+      "prefill_plus_decode_s": 19.7
+    },
+    {
+      "length": 32768,
+      "seed": 42,
+      "depth": 0.25,
+      "task": "vt",
+      "key": "Wolong",
+      "value": "770487-335075",
+      "expected": "126225-859",
+      "hit": true,
+      "answer": "Based on the text provided, the value of `VAR_grasveld28244` is defined as:\n\n**`VAR_grasveld28243`**\n\nThe text explicitly states: `VAR_grasveld28244 = VAR_grasveld28243.` followed by a long list of `z",
+      "prefill_plus_decode_s": 21.8
+    },
+    {
+      "length": 32768,
+      "seed": 43,
+      "depth": 0.5,
+      "task": "vt",
+      "key": "Erlang",
+      "value": "140424-422758",
+      "expected": "399981-812",
+      "hit": false,
+      "answer": "Based on the text provided, the value of `VAR_grasveld16314` is defined as:\n\n**`VAR_grasveld16313`**\n\nThe text explicitly states: `VAR_grasveld16314 = VAR_grasveld16313.`\n\nSince the text does not prov",
+      "prefill_plus_decode_s": 20.4
+    }
+  ],
+  "ckpt": null,
+  "window": 512,
+  "block_size": 2048,
+  "dense": true,
+  "decode_quest": null,
+  "decode_topk": null
+}

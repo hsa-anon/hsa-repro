@@ -1,0 +1,53 @@
+{
+  "summary": {
+    "4096": {
+      "hits": 3,
+      "total": 3,
+      "ratio": 1.0
+    }
+  },
+  "details": [
+    {
+      "length": 4096,
+      "seed": 41,
+      "depth": 0.75,
+      "task": "niah",
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "expected": "499529-708968",
+      "hit": true,
+      "answer": "Based on the text provided, the special magic number for Zhaoyun is **499529-708968**.\n\nThis specific phrase appears embedded within the repetitive text: \"...The sun rises in the east and **One of the",
+      "prefill_plus_decode_s": 7.9
+    },
+    {
+      "length": 4096,
+      "seed": 42,
+      "depth": 0.75,
+      "task": "niah",
+      "key": "Wolong",
+      "value": "770487-335075",
+      "expected": "770487-335075",
+      "hit": true,
+      "answer": "Based on the text provided, the special magic number for Wolong is **770487-335075**.\n\nIt appears embedded within the repetitive text as follows:\n\"...One of the special magic numbers for Wolong is: **",
+      "prefill_plus_decode_s": 6.5
+    },
+    {
+      "length": 4096,
+      "seed": 43,
+      "depth": 0.75,
+      "task": "niah",
+      "key": "Erlang",
+      "value": "140424-422758",
+      "expected": "140424-422758",
+      "hit": true,
+      "answer": "Based on the text provided, the special magic number for Erlang is **140424-422758**.\n\nThis specific sequence appears embedded within the repetitive text: \"...One of the special magic numbers for Erla",
+      "prefill_plus_decode_s": 10.1
+    }
+  ],
+  "ckpt": null,
+  "window": 512,
+  "block_size": 2048,
+  "dense": true,
+  "decode_quest": null,
+  "decode_topk": null
+}

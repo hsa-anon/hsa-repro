@@ -1,0 +1,20 @@
+2026-11-08 11:08:32,651 INFO HTTP Request: POST http://127.0.0.1:11556/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-08 11:09:50,170 INFO len=32768 rep=0 depth=0.25 wall=77.6s hit=True
+2026-11-08 11:09:50,281 INFO HTTP Request: POST http://127.0.0.1:11556/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-08 11:10:56,689 INFO len=32768 rep=0 depth=0.50 wall=66.5s hit=True
+2026-11-08 11:10:56,787 INFO HTTP Request: POST http://127.0.0.1:11556/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-08 11:11:49,619 INFO len=32768 rep=0 depth=1.00 wall=52.9s hit=True
+2026-11-08 11:11:49,686 INFO HTTP Request: POST http://127.0.0.1:11556/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-08 11:13:10,039 INFO len=32768 rep=1 depth=0.25 wall=80.4s hit=True
+2026-11-08 11:13:10,129 INFO HTTP Request: POST http://127.0.0.1:11556/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-08 11:14:19,386 INFO len=32768 rep=1 depth=0.50 wall=69.3s hit=True
+2026-11-08 11:14:19,438 INFO HTTP Request: POST http://127.0.0.1:11556/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-08 11:15:09,197 INFO len=32768 rep=1 depth=1.00 wall=49.8s hit=True
+2026-11-08 11:15:09,256 INFO HTTP Request: POST http://127.0.0.1:11556/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-08 11:16:32,548 INFO len=32768 rep=2 depth=0.25 wall=83.3s hit=True
+2026-11-08 11:16:32,621 INFO HTTP Request: POST http://127.0.0.1:11556/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-08 11:18:12,983 INFO len=32768 rep=2 depth=0.50 wall=100.4s hit=True
+2026-11-08 11:18:13,043 INFO HTTP Request: POST http://127.0.0.1:11556/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-08 11:20:29,515 INFO len=32768 rep=2 depth=1.00 wall=136.5s hit=True
+2026-11-08 11:20:29,519 INFO wrote results/dense_ruler_32768.json
+2026-11-08 11:20:29,521 INFO floor verdict: {"per_category": {"needle_0.25": {"score": 1.0, "floor": 0.99, "pass": true}, "needle_0.5": {"score": 1.0, "floor": 0.99, "pass": true}, "needle_1.0": {"score": 1.0, "floor": 0.99, "pass": true}}, "all_retrieval_pass": true}

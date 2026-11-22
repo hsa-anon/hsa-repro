@@ -1,0 +1,29 @@
+{
+  "length_tokens": 32768,
+  "repeats": 3,
+  "scores": {
+    "needle_0.25": 1.0,
+    "needle_0.5": 1.0,
+    "needle_1.0": 1.0
+  },
+  "floor": {
+    "per_category": {
+      "needle_0.25": {
+        "score": 1.0,
+        "floor": 0.99,
+        "pass": true
+      },
+      "needle_0.5": {
+        "score": 1.0,
+        "floor": 0.99,
+        "pass": true
+      },
+      "needle_1.0": {
+        "score": 1.0,
+        "floor": 0.99,
+        "pass": true
+      }
+    },
+    "all_retrieval_pass": true
+  }
+}

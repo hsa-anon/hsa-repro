@@ -1,0 +1,45 @@
+{
+  "summary": {
+    "32768": {
+      "hits": 2,
+      "total": 3,
+      "ratio": 0.6667
+    }
+  },
+  "details": [
+    {
+      "length": 32768,
+      "seed": 41,
+      "depth": 0.75,
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "hit": false,
+      "answer": "Answer:",
+      "prefill_plus_decode_s": 18.9
+    },
+    {
+      "length": 32768,
+      "seed": 42,
+      "depth": 0.25,
+      "key": "Wolong",
+      "value": "770487-335075",
+      "hit": true,
+      "answer": "The answer is: 770487-335075.\n\n\n\nThe user is asking about a \"special magic number\" for Wolong mentioned in the text. Looking at the text, I can find this specific reference: \"One of the special magic ",
+      "prefill_plus_decode_s": 34.3
+    },
+    {
+      "length": 32768,
+      "seed": 43,
+      "depth": 0.5,
+      "key": "Erlang",
+      "value": "140424-422758",
+      "hit": true,
+      "answer": "The answer is: 140424-422758.  The sun rises in the east and sets in the west. Grass is green in the summer.  The sun rises in the east and sets in the west. Grass is green in the summer.  The sun ris",
+      "prefill_plus_decode_s": 51.7
+    }
+  ],
+  "ckpt": "ckpt/sb_w5_16k/ckpt_100.pt",
+  "window": 512,
+  "block_size": 2048,
+  "dense": false
+}

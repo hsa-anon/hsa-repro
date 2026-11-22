@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "4096": {
+      "hits": 0,
+      "total": 3,
+      "ratio": 0.0
+    }
+  },
+  "details": [
+    {
+      "length": 4096,
+      "seed": 41,
+      "depth": 0.75,
+      "key": "Zhaoyun",
+      "value": "499529-708968",
+      "hit": false,
+      "answer": "<think>\nThe user is asking me to extract a specific piece of information from a large block of repetitive text. The text is mostly \"The sun rises in the east and sets in the west. Grass is green in th",
+      "prefill_plus_decode_s": 42.0
+    },
+    {
+      "length": 4096,
+      "seed": 42,
+      "depth": 0.75,
+      "key": "Wolong",
+      "value": "770487-335075",
+      "hit": false,
+      "answer": "<think>\nThe user has provided a large block of repeated text \"The sun rises in the east and sets in the west. Grass is green in the summer.\" with a hidden message embedded in the middle: \"The sun rise",
+      "prefill_plus_decode_s": 41.7
+    },
+    {
+      "length": 4096,
+      "seed": 43,
+      "depth": 0.75,
+      "key": "Erlang",
+      "value": "140424-422758",
+      "hit": false,
+      "answer": "Based on the text provided, the specific \"magic\" or hidden information hidden within the repetitive text is:\n\n**The sun rises in the east and sets in the west. Grass is green in the summer.**\n\nHowever",
+      "prefill_plus_decode_s": 40.2
+    }
+  ],
+  "ckpt": "/mnt/sfs_turbo/hsa_probe/train_m2/ckpt/ckpt_8000.pt",
+  "window": 512,
+  "block_size": 2048,
+  "dense": false,
+  "decode_quest": 4,
+  "decode_topk": null
+}
