@@ -96,10 +96,16 @@ def make_tier_forward(orig_forward):
             # Decode step: T=1 with history in our own TierLayerCache (HF
             # cache stays empty for tier layers; the GatedDeltaNet layers
             # own the official cache so position ids stay correct).
+            from hsa.eval.nsa_cache import NsaLayerCache
             from hsa.eval.quest_cache import QuestLayerCache
             from hsa.eval.tier_cache import TierLayerCache
 
-            if isinstance(self._tier_cache, QuestLayerCache):
+            if isinstance(self._tier_cache, NsaLayerCache):
+                # NSA external baseline: three-branch selection decode.
+                out1 = self._tier_cache.decode(
+                    query_states[0, :, 0], key_states[0, :, 0], value_states[0, :, 0]
+                )
+            elif isinstance(self._tier_cache, QuestLayerCache):
                 # Quest external baseline: page-bound selection, no tiers.
                 out1 = self._tier_cache.decode(
                     query_states[0, :, 0],
@@ -123,15 +129,32 @@ def make_tier_forward(orig_forward):
             return self.o_proj(attn_output), None
         q_offset = 0
         quest_pages = getattr(self, "_decode_quest", None)
+        nsa_blocks = getattr(self, "_decode_nsa", None)
         if getattr(self, "_tier_decode", False) and t > 1:
             # Chunked prefill: this chunk's queries sit at absolute positions
             # [history_len, history_len + t) and must attend over the FULL
             # history, not just the chunk - otherwise chunk 2+ loses all
             # long-range context during prefill (the 32k sweep failure).
+            from hsa.eval.nsa_cache import NsaLayerCache
             from hsa.eval.quest_cache import QuestLayerCache
             from hsa.eval.tier_cache import TierLayerCache
 
-            if quest_pages:
+            if nsa_blocks:
+                # NSA baseline: dense KV storage for decode-time selection;
+                # prefill attention itself stays dense (matched to Quest).
+                if getattr(self, "_tier_cache", None) is None:
+                    self._tier_cache = NsaLayerCache(
+                        block_size=32, n_blocks=nsa_blocks, window=self.tier_window
+                    )
+                    self._tier_cache.seed(
+                        key_states[0].transpose(0, 1), value_states[0].transpose(0, 1)
+                    )
+                else:
+                    q_offset = int(self._tier_cache.total)
+                    self._tier_cache.append_chunk(
+                        key_states[0].transpose(0, 1), value_states[0].transpose(0, 1)
+                    )
+            elif quest_pages:
                 # Quest baseline: dense KV storage for decode-time page
                 # selection; prefill attention itself stays dense.
                 if getattr(self, "_tier_cache", None) is None:
@@ -163,8 +186,9 @@ def make_tier_forward(orig_forward):
             # the attention module in HF layout (B, Hkv, T, D).
             k_hist = key_states.transpose(1, 2)
             v_hist = value_states.transpose(1, 2)
-        if quest_pages:
-            # Quest baseline prefill: dense SDPA over the full history.
+        if quest_pages or nsa_blocks:
+            # External-baseline prefill (Quest / NSA): dense SDPA over the
+            # full history.
             out = quest_dense_prefill(
                 query_states, k_hist.transpose(1, 2), v_hist.transpose(1, 2), q_offset
             )

@@ -45,7 +45,7 @@ CWE_QUESTION_TEMPLATE = (
 def _filler_words(rng, count):
     # Unique coded filler tokens: each appears exactly once, so repeated
     # coded words dominate by construction (matches the serving-path
-    # generators in the original benchmark scripts).
+    # generators in fusion-lsa scripts/ruler32k_bench.py).
     words = []
     seen = set()
     while len(words) < count:
@@ -230,6 +230,7 @@ def run_ruler(
     prefill_chunk=None,
     latent_zscore=False,
     decode_quest=None,
+    decode_nsa=None,
     task="niah",
 ):
     from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -274,8 +275,18 @@ def run_ruler(
             layer.self_attn._tier_decode = True
             layer.self_attn._latent_clamp = latent_clamp
             layer.self_attn._latent_zscore = latent_zscore
-            layer.self_attn._decode_topk = None if decode_quest else decode_topk
+            layer.self_attn._decode_topk = (
+                None if (decode_quest or decode_nsa) else decode_topk
+            )
             layer.self_attn._decode_quest = decode_quest
+            layer.self_attn._decode_nsa = decode_nsa
+        if decode_nsa:
+            logger.info(
+                "nsa external baseline: dense prefill + three-branch selection decode, "
+                "n_blocks=%d block_size=32 window=%d",
+                decode_nsa,
+                window,
+            )
         if decode_quest:
             logger.info(
                 "quest external baseline: dense prefill + page-bound decode, pages=%d page_size=64",
@@ -399,6 +410,12 @@ def main():
         help="quest baseline: select this many KV pages per kv head at decode",
     )
     p.add_argument(
+        "--decode-nsa",
+        type=int,
+        default=None,
+        help="nsa baseline: select this many KV blocks (32 keys each) per kv head at decode",
+    )
+    p.add_argument(
         "--task",
         choices=["niah", "vt", "fwe", "qa", "cwe"],
         default="niah",
@@ -422,6 +439,7 @@ def main():
         prefill_chunk=args.prefill_chunk,
         latent_zscore=args.latent_zscore,
         decode_quest=args.decode_quest,
+        decode_nsa=args.decode_nsa,
         task=args.task,
     )
 
