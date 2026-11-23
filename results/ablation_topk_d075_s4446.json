@@ -1,0 +1,53 @@
+{
+  "summary": {
+    "4096": {
+      "hits": 3,
+      "total": 3,
+      "ratio": 1.0
+    }
+  },
+  "details": [
+    {
+      "length": 4096,
+      "seed": 44,
+      "depth": 0.75,
+      "task": "niah",
+      "key": "Changshan",
+      "value": "528380-618507",
+      "expected": "528380-618507",
+      "hit": true,
+      "answer": "Based on the text provided, the \"special magic number\" for Changshan is:\n\n**528380-618507**\n\nThis is found in the sentence: \"One of the special magic numbers for Changshan is: 528380-618507.\"",
+      "prefill_plus_decode_s": 48.4
+    },
+    {
+      "length": 4096,
+      "seed": 45,
+      "depth": 0.75,
+      "task": "niah",
+      "key": "Fucheng",
+      "value": "385082-703207",
+      "expected": "385082-703207",
+      "hit": true,
+      "answer": "Based on the text provided, the \"special magic number\" for Fucheng is **385082-703207**.\n\nThis is found in the sentence: \"One of the special magic numbers for Fucheng is: 385082-703207.\"",
+      "prefill_plus_decode_s": 56.6
+    },
+    {
+      "length": 4096,
+      "seed": 46,
+      "depth": 0.75,
+      "task": "niah",
+      "key": "Zhaoyun",
+      "value": "180093-566762",
+      "expected": "180093-566762",
+      "hit": true,
+      "answer": "<think>\nThe user is asking about a \"special magic number for Zhaoyun\" mentioned in the provided text. Let me look through the text carefully.\n\nLooking through the text, I can find this line: \"One of t",
+      "prefill_plus_decode_s": 112.8
+    }
+  ],
+  "ckpt": "results/m2_ckpt/ckpt_8000.pt",
+  "window": 512,
+  "block_size": 2048,
+  "dense": false,
+  "decode_quest": null,
+  "decode_topk": 64
+}

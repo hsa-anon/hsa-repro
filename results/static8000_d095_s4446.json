@@ -1,0 +1,53 @@
+{
+  "summary": {
+    "4096": {
+      "hits": 0,
+      "total": 3,
+      "ratio": 0.0
+    }
+  },
+  "details": [
+    {
+      "length": 4096,
+      "seed": 44,
+      "depth": 0.95,
+      "task": "niah",
+      "key": "Changshan",
+      "value": "528380-618507",
+      "expected": "528380-618507",
+      "hit": false,
+      "answer": "The user is asking a question about the color of the sky.\n\nThe user is asking a question about the color of the sky.\n\nThe user is asking a question about the color of the sky.\n\nThe user is asking abou",
+      "prefill_plus_decode_s": 131.9
+    },
+    {
+      "length": 4096,
+      "seed": 45,
+      "depth": 0.95,
+      "task": "niah",
+      "key": "Fucheng",
+      "value": "385082-703207",
+      "expected": "385082-703207",
+      "hit": false,
+      "answer": "The user is asking a question about a specific riddle or riddle-like riddle. The user is asking about the color of the grass. The user is asking about the color of the grass. The user is asking about ",
+      "prefill_plus_decode_s": 134.0
+    },
+    {
+      "length": 4096,
+      "seed": 46,
+      "depth": 0.95,
+      "task": "niah",
+      "key": "Zhaoyun",
+      "value": "180093-566762",
+      "expected": "180093-566762",
+      "hit": false,
+      "answer": "The user is asking a question about a riddle or a riddle.\nThe user is asking about the direction of the sun or the sun's position.\nThe user is asking about the direction of the sun.\nThe user is asking",
+      "prefill_plus_decode_s": 140.1
+    }
+  ],
+  "ckpt": "results/m2_ckpt/ckpt_8000.pt",
+  "window": 512,
+  "block_size": 2048,
+  "dense": false,
+  "decode_quest": null,
+  "decode_topk": null
+}

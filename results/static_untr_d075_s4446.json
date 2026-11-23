@@ -1,0 +1,53 @@
+{
+  "summary": {
+    "4096": {
+      "hits": 0,
+      "total": 3,
+      "ratio": 0.0
+    }
+  },
+  "details": [
+    {
+      "length": 4096,
+      "seed": 44,
+      "depth": 0.75,
+      "task": "niah",
+      "key": "Changshan",
+      "value": "528380-618507",
+      "expected": "528380-618507",
+      "hit": false,
+      "answer": "Based on the text provided, there is **no mention** of a \"special magic number\" for \"Changshan.\"\n\nThe text consists of a repetitive list of statements regarding the movement of the sun (rising in the ",
+      "prefill_plus_decode_s": 42.5
+    },
+    {
+      "length": 4096,
+      "seed": 45,
+      "depth": 0.75,
+      "task": "niah",
+      "key": "Fucheng",
+      "value": "385082-703207",
+      "expected": "385082-703207",
+      "hit": false,
+      "answer": "Based on the text provided, there is **no mention** of a \"special magic number\" for \"Fucheng.\"\n\nThe text consists of a repetitive, nonsensical loop of sentences regarding the sun rising and setting, t",
+      "prefill_plus_decode_s": 47.1
+    },
+    {
+      "length": 4096,
+      "seed": 46,
+      "depth": 0.75,
+      "task": "niah",
+      "key": "Zhaoyun",
+      "value": "180093-566762",
+      "expected": "180093-566762",
+      "hit": false,
+      "answer": "<think>\nThe user is asking about \"the special magic number for Zhaoyun mentioned in the provided text.\" Let me carefully read through the provided text to find any mention of Zhaoyun or a \"special mag",
+      "prefill_plus_decode_s": 138.8
+    }
+  ],
+  "ckpt": null,
+  "window": 512,
+  "block_size": 2048,
+  "dense": false,
+  "decode_quest": null,
+  "decode_topk": null
+}

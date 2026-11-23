@@ -1,0 +1,53 @@
+{
+  "summary": {
+    "4096": {
+      "hits": 3,
+      "total": 3,
+      "ratio": 1.0
+    }
+  },
+  "details": [
+    {
+      "length": 4096,
+      "seed": 44,
+      "depth": 0.95,
+      "task": "niah",
+      "key": "Changshan",
+      "value": "528380-618507",
+      "expected": "528380-618507",
+      "hit": true,
+      "answer": "Based on the text provided, the \"special magic number\" for **Changshan** (which appears to be a reference to the \"Changshan\" or \"Grass Mountain\" mentioned in the context of the \"sun rises in the east ",
+      "prefill_plus_decode_s": 113.9
+    },
+    {
+      "length": 4096,
+      "seed": 45,
+      "depth": 0.95,
+      "task": "niah",
+      "key": "Fucheng",
+      "value": "385082-703207",
+      "expected": "385082-703207",
+      "hit": true,
+      "answer": "Based on the text provided, the \"special magic number\" for Fucheng is **385082-703207**.\n\nThis is found in the sentence: *\"Grass is green in the summer. The sun rises in the east and sets in the west.",
+      "prefill_plus_decode_s": 164.4
+    },
+    {
+      "length": 4096,
+      "seed": 46,
+      "depth": 0.95,
+      "task": "niah",
+      "key": "Zhaoyun",
+      "value": "180093-566762",
+      "expected": "180093-566762",
+      "hit": true,
+      "answer": "Based on the text provided, the \"special magic number\" associated with Zhaoyun is **180093-566762**.\n\nThis is found in the sentence: *\"The special magic number for Zhaoyun is: 180093-566762.\"*\n\n(Note:",
+      "prefill_plus_decode_s": 46.0
+    }
+  ],
+  "ckpt": "results/m2_ckpt/ckpt_8000.pt",
+  "window": 512,
+  "block_size": 2048,
+  "dense": false,
+  "decode_quest": null,
+  "decode_topk": 64
+}

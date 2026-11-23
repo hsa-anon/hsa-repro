@@ -1,0 +1,53 @@
+{
+  "summary": {
+    "4096": {
+      "hits": 3,
+      "total": 3,
+      "ratio": 1.0
+    }
+  },
+  "details": [
+    {
+      "length": 4096,
+      "seed": 44,
+      "depth": 0.95,
+      "task": "niah",
+      "key": "Changshan",
+      "value": "528380-618507",
+      "expected": "528380-618507",
+      "hit": true,
+      "answer": "Based on the text provided, there is no mention of a \"special magic number\" for \"Changshan.\"\n\nThe text contains a long, repetitive passage discussing the sun, grass, seasons, and directions (East, Wes",
+      "prefill_plus_decode_s": 71.6
+    },
+    {
+      "length": 4096,
+      "seed": 45,
+      "depth": 0.95,
+      "task": "niah",
+      "key": "Fucheng",
+      "value": "385082-703207",
+      "expected": "385082-703207",
+      "hit": true,
+      "answer": "Based on the text provided, the \"special magic number\" mentioned is **385082-703207**.\n\nThe text states: \"Grass is green in the summer. The sun rises in the east and sets in the west. Grass is green i",
+      "prefill_plus_decode_s": 170.4
+    },
+    {
+      "length": 4096,
+      "seed": 46,
+      "depth": 0.95,
+      "task": "niah",
+      "key": "Zhaoyun",
+      "value": "180093-566762",
+      "expected": "180093-566762",
+      "hit": true,
+      "answer": "Based on the text provided, the \"special magic number\" for Zhaoyun is **180093-566762**.\n\nThis is found in the sentence: \"The special magic numbers for Zhaoyun is: 180093-566762.\"",
+      "prefill_plus_decode_s": 49.1
+    }
+  ],
+  "ckpt": null,
+  "window": 512,
+  "block_size": 2048,
+  "dense": false,
+  "decode_quest": null,
+  "decode_topk": null
+}
